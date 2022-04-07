@@ -4,14 +4,16 @@ public class Calculator {
     public static void main(String[] args) {
         int one = 1;
         int two = 2;
-        int six = 6;
-        int four = 4;
-        int five = 5;
-
         int onePlusTwo = one + two;
-        int sixDivTwo = six / two;
-        int fiveMinusTwo = five - two;
-        int fourTimeTwo = four * two;
+
+        one = 6;
+        int sixDivTwo = one / two;
+
+        one = 5;
+        int fiveMinusTwo = one - two;
+
+       one = 4;
+        int fourTimeTwo = one * two;
 
         System.out.println(onePlusTwo);
         System.out.println(sixDivTwo);
